@@ -1,12 +1,12 @@
 # To run locally
 1. Clone Project:
-    ```
+    ```bash
     git clone https://github.com/harshpx/Rentify.git
     cd Rentify
     ```
 2. Client setup:
     * Basic setup:
-        ```
+        ```bash
         cd client
         npm i
         ```
@@ -15,7 +15,7 @@
         * VITE_EMAILJS_TEMPLATE_NAME (Your EmailJS Template name)
         * VITE_EMAILJS_PUBLIC_KEY (Your EmailJS Public Key)
     * If you want to setup server locally too (*Not Recommended), change server proxy in `vite.config.js` to use http proxy while sending requests to local server at port 5000.
-        ```
+        ```js
         export default defineConfig({
             server: {
                 proxy: {
@@ -29,7 +29,7 @@
     * Go to server directory and install required libraries.
     * Create `.env` file similar to `.env_sample` present in directory 
     * Setup MongoDB Atlas and cloudinary to get following environment variables:
-        ```
+        ```bash
         //.env file//
         MONGO_URI=""
         CLOUDINARY_CLOUD_NAME=""
@@ -38,7 +38,7 @@
         PORT=5000
         JWT_SECRET="" (can be set aynthing accordingly)
         ```
-    ```
+    ```bash
     cd server
     touch .env
     //now fill details in .env file//
