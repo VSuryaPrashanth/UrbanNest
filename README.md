@@ -38,6 +38,7 @@
         PORT=5000
         JWT_SECRET="" (can be set aynthing accordingly)
         ```
+           
     ```bash
     cd server
     touch .env
