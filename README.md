@@ -1,7 +1,7 @@
 # To run locally
 1. Clone Project:
     ```bash
-    git clone https://github.com/harshpx/Rentify.git
+    git clone https://github.com/VSuryaPrashanth/UrbanNest.git
     cd Rentify
     ```
 2. Client setup:
